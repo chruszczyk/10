@@ -1,21 +1,66 @@
-.container { height: 100vh; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
+.container {
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
 
-.container #carousel { width: 600px; height: 400px; border: 1px solid #000; overflow: hidden; }
+.container #carousel {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
 
-.container #carousel ul { width: 3000px; margin: 0; padding: 0; right: 1200px; position: relative; }
+.container #carousel ul {
+  width: 3000px;
+  margin: 0;
+  padding: 0;
+  right: 1200px;
+  position: relative;
+}
 
-.container #carousel ul li { list-style-type: none; width: 600px; height: 400px; float: left; }
+.container #carousel ul li {
+  list-style-type: none;
+  width: 600px;
+  height: 400px;
+  float: left;
+}
 
-.container #carousel ul li img { width: 600px; }
+.nav {
+  width: 600px;
+  height: 400px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+}
 
-.nav { width: 600px; height: 400px; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-align: center; align-items: center; position: absolute; }
+.nav:hover .arrow {
+  color: white;
+}
 
-.nav:hover .arrow { color: white; }
+.nav .arrow {
+  text-decoration: none;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0);
+}
 
-.nav .arrow { text-decoration: none; font-size: 60px; color: rgba(255, 255, 255, 0); }
+.nav .arrow:hover {
+  cursor: pointer;
+}
 
-.nav .arrow:hover { cursor: pointer; }
+.nav .left {
+  padding-left: 15px;
+}
 
-.nav .left { padding-left: 15px; }
-
-.nav .right { padding-right: 15px; }
+.nav .right {
+  padding-right: 15px;
+}
+/*# sourceMappingURL=style.css.map */
