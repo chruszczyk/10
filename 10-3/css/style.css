@@ -30,6 +30,10 @@
   float: left;
 }
 
+.container #carousel ul li img {
+  width: 600px;
+}
+
 .nav {
   width: 600px;
   height: 400px;
